@@ -66,6 +66,10 @@ p {
   font-family: var(--bs-font-sans-serif);
   color: #6d4254;
 }
+li{
+   text-decoration: none;
+  display: inline;
+}
 .me {
   background-color: var(--body-color);
   text-align: center;
@@ -141,14 +145,14 @@ p {
 .contact-link {
   display: flex;
   justify-content: center;
-  color: #ef56a2;
+  color: #6d4254;
   font-size: 28px;
   text-decoration: none;
   font-family: var(--bs-font-sans-serif);
 }
 .text-center {
   font-family: var(--bs-font-sans-serif);
-  color: #6d4254;
+  color: #967e88;
 }
 
 .about-section {
@@ -165,6 +169,7 @@ p {
 .about-section-content {
   margin: 30px;
 }
+
 
 @media (max-width: 960px) {
   h1 {
